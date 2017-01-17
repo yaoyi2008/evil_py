@@ -33,7 +33,7 @@ args = ''
 for i in sys.argv[1:]:
     args = args + ' ' + i
 
-# 比较输入命令中的用户名是否存在
+# 判断输入命令中的用户名是否存在
 if username in users:
     # 捕获键盘异常
     try:
