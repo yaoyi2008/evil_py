@@ -19,4 +19,4 @@ headers = {
 
 r = requests.post(url, headers=headers, verify=False)
 
-print(r.text)
+print(r.content)
